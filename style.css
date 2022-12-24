@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Nunito Sans";
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.logo {
+  height: 100%;
+  margin-right: 20px;
+}
+.sidebar {
+  height: 7%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.content, .sidebar {
+  margin: 0px 100px;
+}
+.body {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.bodyL {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+.bodyXL {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+}
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+}
+.titleL {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+}
+.titleXL {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 61px;
+}
+.heading {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 68px;
+}
+.headingL {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 82px;
+}
+.headingXL {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 95px;
+}
+.landing {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 102px;
+}
+.landingL {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 123px;
+}
+.landingXL {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 110px;
+}
+p, a, span {
+  margin: 0px;
+}
