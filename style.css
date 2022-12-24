@@ -74,17 +74,17 @@ a {
 .landing {
   font-weight: 700;
   font-size: 75px;
-  line-height: 102px;
+  line-height: 95px;
 }
 .landingL {
   font-weight: 700;
   font-size: 90px;
-  line-height: 123px;
+  line-height: 110px;
 }
 .landingXL {
   font-weight: 700;
   font-size: 100px;
-  line-height: 110px;
+  line-height: 115px;
 }
 p, a, span {
   margin: 0px;
