@@ -25,6 +25,7 @@ a {
   color: inherit;
   text-decoration: none;
   padding: 0px 10px;
+  cursor: pointer;
 }
 .limittext {
   max-width: 500px;
