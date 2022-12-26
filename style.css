@@ -5,7 +5,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0px;
+}
+.sidebar, .content {
+  margin: 0px 100px;
 }
 .logo {
   height: 100%;
@@ -13,7 +15,6 @@ html, body {
 }
 .sidebar {
   height: 7%;
-  width: 100%;
   display: flex;
   align-content: center;
   align-items: center;
@@ -23,8 +24,21 @@ a {
   text-decoration: none;
   padding: 0px 10px;
 }
-.content, .sidebar {
-  margin: 0px 100px;
+.limittext {
+  max-width: 500px;
+}
+.feature {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.feature > img {
+  max-width: 600px;
+  width: 40%;
+  aspect-ratio: 4/3
+}
+img {
+  border-radius: 20px;
 }
 .body {
   font-weight: 600;
