@@ -19,9 +19,10 @@ html, body {
   display: flex;
   align-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 a {
-  color: black;
+  color: inherit;
   text-decoration: none;
   padding: 0px 10px;
 }
@@ -41,6 +42,14 @@ a {
 img {
   border-radius: 20px;
 }
+.right-align {
+  text-align: right;
+}
+body.dark {
+  background: black;
+  color: white;
+}
+/* FONT SIZES */
 .body {
   font-weight: 600;
   font-size: 16px;
